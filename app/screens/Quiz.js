@@ -259,16 +259,16 @@ const Quiz = () => {
 
         {/* Question */}
         {renderQuestion()}
-        <View>
+        {/* <View>
           {(textQuestions == allQuestions.length) < 3
             ? renderOptions()
             : renderTextInput()}
-        </View>
+        </View> */}
         {/* TextInput */}
-        {/* {renderTextInput()} */}
+        {renderTextInput()}
 
         {/* Options */}
-        {/* {renderOptions()} */}
+        {renderOptions()}
 
         {/* Next Button */}
         {renderNextButton()}
